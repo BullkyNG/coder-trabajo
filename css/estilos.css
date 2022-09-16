@@ -187,3 +187,53 @@ color: black;
 .yellow {
 background-color: gold;
 }
+
+
+.gradiante-titulo {
+
+
+   color: gold;
+   
+   }
+   
+   .gradiante-titulo:hover {
+      transform: scale(2);
+      transition: transform 5s;
+    
+   }
+   
+   
+   @keyframes animacion_body {
+      0% { background-color: black;
+   
+      }
+   
+      25% { background-color: black;
+   
+   
+      }
+   
+      50%{ background-color: black;
+   
+      }
+   
+      75%{ background-color: gold;
+   
+   
+      }
+      100% { background-image: url(https://s.yimg.com/ny/api/res/1.2/4fZ1X8yg1MZ4B7idgXbITA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://s.yimg.com/uu/api/res/1.2/B7PQPuS7ZAnrN9.pd9M0HA--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/kotaku_564/a3eff24f15cc79814f63dbb84cb1b4d3);
+   background-size: 85%;
+   background-position: 100%;
+      }
+   }
+   
+   
+   body {
+   
+     
+      display: flex;
+      animation-name: animacion_body;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;
+   }
+   
